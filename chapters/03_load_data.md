@@ -63,6 +63,13 @@ different parts of the map to set your area of interest, or tick the
 
 ## Save the Project
 
+Let's clean up the layers. 
+
+:::{admonition} Hands on
+:class: tip
+- Delete all layers except `OpenStreetMap.Mapnik Layer` and `Countries` layer. 
+:::
+
 Right now the project has the default name untitled.jgis. Let's save it
 with a better name.
 

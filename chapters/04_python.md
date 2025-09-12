@@ -10,26 +10,36 @@ expression and add a new layer.
 
 ```{admonition} Hands on
 :class: tip
-Here we open the project, define a style, and add a new vector layer:
+- Open the Launcher and select a Notebook kernel.
+- Import the library.
+    ```python
+    from jupytergis import GISDocument
+    ```
+- Open the project.
+    ```python
+    doc = GISDocument('<project_name.jGIS>')
+    ```
+- Create a color expression.
+    ```python
+    color_expr = {
+        "circle-fill-color":"#303757",
+        "circle-radius":3
+    }
+    ```
+- Add a new vector layer.
+    ```python
+    bike_stations = doc.add_geojson_layer(
+        path=(
+        "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets"
+        "/jcdecaux_bike_data/exports/geojson"
+        ),
+        name="Bike stations",
+        color_expr=color_expr
+    )
+    ``` 
+- Visualize the map.
+    ```python
+    doc
+    ```
 
-```python
-from jupytergis import GISDocument
-
-# Open the project
-doc = GISDocument('<project_name.jgis>')
-
-# Create a color expression
-color_expr = {
-    "circle-fill-color":"#303757",
-    "circle-radius":3
-}
-
-# Add a new vector layer
-bike_stations = doc.add_geojson_layer(
-    path="https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/jcdecaux_bike_data/exports/geojson",
-    name="Bike stations",
-    color_expr=color_expr
-)
-
-# Visualize the map
-doc
+- If the newly added layer is at the bottom, bring it to the top.

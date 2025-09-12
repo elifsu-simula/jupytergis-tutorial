@@ -348,29 +348,45 @@ Let’s open the project we have been working on, create a new color
 expression and add a new layer.</p>
 <div class="tip admonition">
 <p class="admonition-title">Hands on</p>
-<p>Here we open the project, define a style, and add a new vector layer:</p>
+<ul>
+<li><p>Open the Launcher and select a Notebook kernel.</p></li>
+<li><p>Import the library.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">jupytergis</span> <span class="kn">import</span> <span class="n">GISDocument</span>
-
-<span class="c1"># Open the project</span>
-<span class="n">doc</span> <span class="o">=</span> <span class="n">GISDocument</span><span class="p">(</span><span class="s1">&#39;&lt;project_name.jgis&gt;&#39;</span><span class="p">)</span>
-
-<span class="c1"># Create a color expression</span>
-<span class="n">color_expr</span> <span class="o">=</span> <span class="p">{</span>
+</pre></div>
+</div>
+</li>
+<li><p>Open the project.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span> <span class="o">=</span> <span class="n">GISDocument</span><span class="p">(</span><span class="s1">&#39;&lt;project_name.jGIS&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Create a color expression.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">color_expr</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">&quot;circle-fill-color&quot;</span><span class="p">:</span><span class="s2">&quot;#303757&quot;</span><span class="p">,</span>
     <span class="s2">&quot;circle-radius&quot;</span><span class="p">:</span><span class="mi">3</span>
 <span class="p">}</span>
-
-<span class="c1"># Add a new vector layer</span>
-<span class="n">bike_stations</span> <span class="o">=</span> <span class="n">doc</span><span class="o">.</span><span class="n">add_geojson_layer</span><span class="p">(</span>
-    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/jcdecaux_bike_data/exports/geojson&quot;</span><span class="p">,</span>
+</pre></div>
+</div>
+</li>
+<li><p>Add a new vector layer.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">bike_stations</span> <span class="o">=</span> <span class="n">doc</span><span class="o">.</span><span class="n">add_geojson_layer</span><span class="p">(</span>
+    <span class="n">path</span><span class="o">=</span><span class="p">(</span>
+    <span class="s2">&quot;https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets&quot;</span>
+    <span class="s2">&quot;/jcdecaux_bike_data/exports/geojson&quot;</span>
+    <span class="p">),</span>
     <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Bike stations&quot;</span><span class="p">,</span>
     <span class="n">color_expr</span><span class="o">=</span><span class="n">color_expr</span>
 <span class="p">)</span>
-
-<span class="c1"># Visualize the map</span>
-<span class="n">doc</span>
 </pre></div>
 </div>
+</li>
+<li><p>Visualize the map.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span>
+</pre></div>
+</div>
+</li>
+<li><p>If the newly added layer is at the bottom, bring it to the top.</p></li>
+</ul>
 </div>
 </section>
 
