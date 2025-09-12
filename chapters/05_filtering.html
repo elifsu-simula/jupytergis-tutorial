@@ -357,7 +357,13 @@ point. If you have selected multiple data points, try zooming in and
 clicking again. Observe the features on the right panel.</p></li>
 <li><p>Go back to the notebook and filter the bike stations based on the
 status feature.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span><span class="o">.</span><span class="n">add_filter</span><span class="p">(</span><span class="n">layer_id</span><span class="o">=</span><span class="n">bike_stations</span><span class="p">,</span> <span class="n">logical_op</span><span class="o">=</span><span class="s2">&quot;all&quot;</span><span class="p">,</span> <span class="n">feature</span><span class="o">=</span><span class="s2">&quot;status&quot;</span><span class="p">,</span> <span class="n">operator</span><span class="o">=</span><span class="s2">&quot;==&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;OPEN&quot;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">doc</span><span class="o">.</span><span class="n">add_filter</span><span class="p">(</span>
+    <span class="n">layer_id</span><span class="o">=</span><span class="n">bike_stations</span><span class="p">,</span>
+    <span class="n">logical_op</span><span class="o">=</span><span class="s2">&quot;all&quot;</span><span class="p">,</span>
+    <span class="n">feature</span><span class="o">=</span><span class="s2">&quot;status&quot;</span><span class="p">,</span>
+    <span class="n">operator</span><span class="o">=</span><span class="s2">&quot;==&quot;</span><span class="p">,</span>
+    <span class="n">value</span><span class="o">=</span><span class="s2">&quot;OPEN&quot;</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 </li>
