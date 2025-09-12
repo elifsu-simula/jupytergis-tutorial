@@ -1,0 +1,12 @@
+format: jb-book
+root: chapters/01_introduction
+
+chapters:
+  - file: chapters/02_launch
+  - file: chapters/03_load_data
+  - file: chapters/04_python
+  - file: chapters/05_filtering
+  - file: chapters/06_symbology
+  - file: chapters/07_data_analysis
+  - file: chapters/08_collaboration
+  - file: chapters/09_conclusion
