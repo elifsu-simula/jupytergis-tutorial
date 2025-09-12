@@ -19,7 +19,13 @@ filter out the closed stations from our map.
   status feature.
 
   ``` python
-  doc.add_filter(layer_id=bike_stations, logical_op="all", feature="status", operator="==", value="OPEN")
+  doc.add_filter(
+      layer_id=bike_stations,
+      logical_op="all",
+      feature="status",
+      operator="==",
+      value="OPEN"
+  )
   ```
 
 - Check out the map. Are the closed bike stations still on the map?
