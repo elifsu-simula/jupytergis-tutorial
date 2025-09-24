@@ -5,6 +5,8 @@ stations layer.
 
 :::{admonition} Hands on
 :class: tip
+- Right click on the Countries layer, under processing, try convex hull, centroids, bounding boxes and
+  concave hull.
 - Right click on the bike stations layer on the layers panel, then click
   on Edit Symbology.
 - Experiment with different render types both in Color and in Radius

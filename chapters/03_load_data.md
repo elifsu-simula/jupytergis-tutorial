@@ -42,8 +42,6 @@ rename the layer and change the symbology.
 - Select Rename Layer, then enter a new name, such as *Countries*.
 - Right click again, and select Edit Symbology.
 - Change the fill and stroke colors, and stroke width.
-- Under processing, try convex hull, centroids, bounding boxes and
-  concave hull.
 - Change the order of the layers on the left panel and observe the
   changes.
 :::
