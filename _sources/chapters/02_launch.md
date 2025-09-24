@@ -4,7 +4,7 @@ We are going to access JupyterGIS from Galaxy's interactive tools.
 
 :::{admonition} Hands on
 :class: tip
-- Open your browser and navigate to [https://climate.usegalaxy.eu/](https://climate.usegalaxy.eu/), then log in or register for an account if you haven’t already, to access the JupyterGIS platform.
+- Open your browser and navigate to [https://usegalaxy.eu/join-training/bids25-jupytergis](https://usegalaxy.eu/join-training/bids25-jupytergis) to access the JupyterGIS platform.
 - On the left sidebar, click Tools.
 - In the search box, type JupyterGIS.
 - Click Interactive JupyterGIS Notebook and then click the Run Tool button.
