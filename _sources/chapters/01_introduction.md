@@ -1,6 +1,6 @@
 # Introduction
 
-JupyterGIS is a JupyterLab extension that allows you to work
+[JupyterGIS](https://github.com/geojupyter/jupytergis) is a JupyterLab extension that allows you to work
 collaboratively on GIS projects. It has basic support for QGIS project
 files, so you can import and export projects between QGIS and
 JupyterGIS, and the layer styles, data sources and project settings will
