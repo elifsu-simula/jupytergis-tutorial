@@ -9,4 +9,5 @@ chapters:
   - file: chapters/06_symbology
   - file: chapters/07_data_analysis
   - file: chapters/08_collaboration
-  - file: chapters/09_conclusion
+  - file: chapters/09_project
+  - file: chapters/10_conclusion
