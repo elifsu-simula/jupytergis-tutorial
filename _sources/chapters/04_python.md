@@ -1,6 +1,6 @@
 # Python API
 
-You can use the Python API to add raster and vector layers, edit
+You can use the [Python API](https://jupytergis.readthedocs.io/en/latest/user_guide/python_api.html) to add raster and vector layers, edit
 symbology, and filter data. Moreover you can visualize the map in the
 notebook, and use other GIS libraries for further data analysis.
 
@@ -17,7 +17,7 @@ expression and add a new layer.
     ```
 - Open the project.
     ```python
-    doc = GISDocument('<project_name.jGIS>')
+    doc = GISDocument('<project_name>.jGIS')
     ```
 - Create a color expression.
     ```python
