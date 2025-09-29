@@ -17,7 +17,7 @@ expression and add a new layer.
     ```
 - Open the project.
     ```python
-    doc = GISDocument('<project_name.jGIS>')
+    doc = GISDocument('<project_name>.jGIS')
     ```
 - Create a color expression.
     ```python
