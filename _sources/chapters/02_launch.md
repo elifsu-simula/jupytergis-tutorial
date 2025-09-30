@@ -4,7 +4,8 @@ We are going to access JupyterGIS from Galaxy's interactive tools.
 
 :::{admonition} Hands on
 :class: tip
-- Open your browser and navigate to [https://usegalaxy.eu/join-training/bids25-jupytergis](https://usegalaxy.eu/join-training/bids25-jupytergis) to access the JupyterGIS platform.
+- First register or login to [Galaxy](https://usegalaxy.eu/login/start?redirect=None).
+- Then, open your browser and navigate to [https://usegalaxy.eu/join-training/bids25-jupytergis](https://usegalaxy.eu/join-training/bids25-jupytergis) to join the training.
 - On the left sidebar, click Tools.
 - In the search box, type JupyterGIS.
 - Click Interactive JupyterGIS Notebook and then click the Run Tool button.
