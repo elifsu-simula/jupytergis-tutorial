@@ -10,9 +10,9 @@ $$NDVI = \frac{NIR - RED}{NIR + RED}$$
 
 We are going to use two satellite datasets:
 
-- Landsat 5 Thematic Mapper, 1985--1986
+- Landsat 5, 1985--1986
 
-- Copernicus Sentinel-2 L2A, 2020--2023
+- Landsat 8/9, 2020--2023
 
 
 :::{admonition} Hands on
